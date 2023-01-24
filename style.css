@@ -1,0 +1,87 @@
+/* Color pallette
+primary #FFFFBEB
+secondary #495579
+teritary #263159
+accent: #251749
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #251749;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+header {
+    background-color:  #495579;
+    color: #fff;
+    padding: 1.5rem;
+    margin: 1.2rem;
+}
+
+footer {
+    background-color: #FFFFBEB;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    font-size: 0.55rem;
+}
+
+h1
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100;
+    height: auto;
+    border-radius: 2rem;
+}
+
+li {
+    padding: 0.2rem;
+}
+
+.post {
+    background-color: #FFFFBEB;
+    margin: 1.2rem;
+    padding:1.5rem;
+    line-height: 2rem;
+}
+
+.post {
+    text-indent: 1.2rem;
+}
+
+.sourse {
+    letter-spacing: 1px
+}
+
+.sourse {
+    text-decoration: none
+    color: #495579 ;
+}
+
+@media (min-width: 800px) {
+    gallery. {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space around;
+    
+}
+
+.post {
+    width: 25%
+    font-sixe 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem
+}
+
